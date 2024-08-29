@@ -1,0 +1,54 @@
+.top {
+    display: flex;
+    background-color: rgb(9, 30, 122);
+    height: calc(91%);
+    color: aliceblue;
+}
+img {
+    height: 100%;
+}
+.bio {
+    color: rgb(255, 254, 255);
+    width: 50%;
+}
+.top {
+    display: flex;
+    background-color: rgb(41, 47, 71); /* Deep blue background */
+    height: calc(91%);
+    padding: 20px; /* Add some padding for a more spacious look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a subtle 3D effect */
+    border-radius: 10px; /* Rounded corners for a modern look */
+}
+
+img {
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100%; /* Ensures the image stays within the container */
+    border-radius: 8px; /* Rounded corners for the image */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.bio {
+    color: rgb(255, 254, 255); /* White text color */
+    width: 50%; /* Half the width of the parent container */
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    font-family: "Arial", sans-serif; /* Clean and modern font */
+    line-height: 1.6; /* Improve text readability */
+    font-size: 18px; /* Adjust font size for better readability */
+    text-align: left; /* Left align the text */
+}
+.nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 15px;
+    color: aliceblue;
+}

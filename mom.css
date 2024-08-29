@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(206, 252, 246);
+}
+img {
+    border-radius: 50%;
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+.bio {
+    display: block;
+    width: 50%;
+    margin: auto;
+    color: rgb(8, 8, 8); /* General body styles */
+    body {
+        background-color: rgb(242, 252, 206);
+        font-family: Arial, sans-serif; /* Added font-family for better typography */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+    }
+
+    /* Navigation styles */
+    ul {
+        list-style-type: none; /* Remove default bullet points */
+        padding: 0; /* Remove default padding */
+        background-color: #333 36, 33, 33; /* Light background color for the navigation */
+
+        text-align: center; /* Center align the links */
+    }
+
+    ul li {
+        display: inline; /* Display list items in a horizontal line */
+        margin-right: 15px; /* Space between links */
+    }
+
+    ul a {
+        text-decoration: none; /* Remove underline from links */
+        color: rgb(34, 34, 34); /* Dark text color for links */
+        font-weight: bold; /* Bold text */
+        font-size: 1.1em; /* Slightly larger text */
+    }
+
+    ul a:hover {
+        color: rgb(0, 123, 255); /* Change color on hover */
+    }
+
+    /* Main image styles */
+    .main img {
+        border-radius: 50%;
+        width: 40%;
+        display: block;
+        margin: 20px auto; /* Center the image with spacing above and below */
+    }
+
+    /* Bio section styles */
+    .bio {
+        width: 50%;
+        margin: 20px auto; /* Center and add vertical spacing */
+        color: rgb(34, 34, 34); /* Dark text color */
+        line-height: 1.6; /* Improve readability with line height */
+        padding: 10px; /* Add padding inside the bio section */
+        background-color: #fff; /* Add a white background */
+        border: 1px solid #ddd; /* Add a light border */
+        border-radius: 8px; /* Rounded corners */
+    }
+
+    /* Horizontal rule styles */
+    hr {
+        height: 4px;
+        background-color: black;
+        width: 50%;
+        margin: 20px auto;
+        border: none; /* Remove default border */
+    }
+
+    /* Button styles */
+    .button {
+        text-align: center; /* Center align the button */
+    }
+
+    button {
+        background-color: brown;
+        color: white; /* Text color on button */
+        border: none; /* Remove default border */
+        padding: 10px 20px; /* Add padding inside the button */
+        font-size: 1em; /* Set font size */
+        cursor: pointer; /* Change cursor on hover */
+        border-radius: 5px; /* Rounded corners */
+    }
+
+    button:hover {
+        background-color: darkred; /* Darker color on hover */
+    }
+}
+
+hr {
+    height: 4px;
+    background-color: black;
+    width: 50%;
+    margin: 20px auto;
+}
+button {
+    background-color: brown;
+    width: 30%;
+    margin: 40px;
+}
+.bio {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
