@@ -12,6 +12,7 @@ img {
     width: 50%;
     margin: auto;
     color: rgb(8, 8, 8); /* General body styles */
+}
     body {
         background-color: rgb(242, 252, 206);
         font-family: Arial, sans-serif; /* Added font-family for better typography */
@@ -91,7 +92,7 @@ img {
     button:hover {
         background-color: darkred; /* Darker color on hover */
     }
-}
+
 
 hr {
     height: 4px;
