@@ -46,6 +46,9 @@ img {
 .nav ul {
     list-style: none;
 }
+.nav a{
+     color: aliceblue;
+}
 
 .nav ul li {
     display: inline;
