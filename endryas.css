@@ -49,6 +49,29 @@ img {
 .nav a{
      color: aliceblue;
 }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .top {
+        flex-direction: column; /* Stack image and text vertically on smaller screens */
+        align-items: center; /* Center content */
+        text-align: center;
+    }
+
+    .bio {
+        width: 100%; /* Full width on smaller screens */
+        margin-top: 20px; /* Space between image and text */
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav ul li {
+        margin: 10px 0; /* Space between navigation items */
+    }
+}
+
 
 .nav ul li {
     display: inline;
